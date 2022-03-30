@@ -14,9 +14,104 @@
                 
 
             }
+            .b1{
+                overflow: hidden;
+                height: 30cm;
+                background-color: rgb(33,25,3);
+
+            }
+            .b2{
+                overflow: hidden;
+                height: 30cm;
+                background-color: rgb(33,25,3);
+            }
             .tab1{
                 color:rgb(255,253,253);
             }
+            .tc1{
+                padding-left: 0.25cm;
+                padding-top: 0.25cm;
+
+            }
+            .tc1:hover{
+                background-color: rgb(130,102,23);
+                padding-left: 0.2cm ;
+                padding-top: 0.2cm;
+            }
+            .at{
+                color: rgb(255,253,253);
+                text-decoration: none;
+            }
+            .i1{
+                height: 30cm;
+                width: 50cm;
+                
+            }
+            .i2{
+                height: 30cm;
+                width: 50cm;
+            }
+            .searchBox {
+                  top: 0.003.cm;
+                  position: absolute;
+                  transform:  translate(-50%,50%);
+                  background: #2f3640;
+                  height: 40px;
+                  border-radius: 40px;
+                  padding: 10px;
+                  float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+
+                }
+
+            .searchBox:hover > .searchInput {
+                  width: 240px;
+                  padding: 0 6px;
+                }
+
+            .searchBox:hover > .searchButton {
+                  background: white;
+                  color : #2f3640;
+                }
+
+            .searchButton {
+                 color: white;
+                 float: right;
+                 width: 40px;
+                 height: 40px;
+                 border-radius: 50%;
+                 background: #2f3640;
+                 display: flex;
+                 justify-content: center;
+                 align-items:center;
+                 transition: 0.4s;
+                 }
+
+               .searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+               }
+     
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
         </style>
         <script>
 
@@ -27,12 +122,23 @@
         <div class="t1">
             <table class="tab1">
                 <tr>
-                    <td> Hi </td>
-                    <td>  Hi                  </td>
+                    <td><div class="tc1"><a href="#Home" class="at"> Home </a></div></td>
+                    <td><div class="tc1"><a href="#Passes" class="at"> Passes </a></div></td>
+                    <td><div class="tc1"><a href="#Contact" class="at"> Contact </a></div></td>
+                    <td> <div class="searchBox"><input class="searchInput"type="text" name="" placeholder="Search"><button class="searchButton" href="#"><i class="material-icons">search</i></button></div></td>
                 </tr>
             </table>
 
         </div>
+        <br>
+        <div class="b1">
+            <img src="E:\Op_Fool\Images_for file\pic1.jpg" class="i1">
+        </div>
+        <br>
+        <div class="b2">
+            <img src="E:\Op_Fool\Images_for file\pic2.jpg" class="i2">
+        </div>
+        
 
 
     </body>
